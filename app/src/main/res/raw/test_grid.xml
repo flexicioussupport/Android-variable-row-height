@@ -1,0 +1,104 @@
+<grid
+    enableFooters="true"
+    enablePaging="true"
+    forcePagerRow="true"
+    variableRowHeight="true">
+    <level
+        pageSize="50"
+        selectedKeyField="id">
+        <columns>
+            <column
+                columnLockMode="left"
+                columnWidthMode="fixed"
+                dataField="Field Rep"
+                headerText="Field Rep"
+                paddingRight="5"
+                textAlign="left"
+                wordWrap="true"/>
+            <column
+                columnWidthMode="fixed"
+                dataField="Pull No"
+                headerText="Pull No"
+                paddingRight="5"
+                textAlign="left"
+                wordWrap="true"/>
+            <column
+                columnWidthMode="fixed"
+                dataField="Pull Version"
+                headerText="Pull Version"
+                paddingRight="5"
+                textAlign="left"
+                wordWrap="true"/>
+            <column
+                columnWidthMode="fixed"
+                dataField="Pull Start"
+                headerText="Pull Start"
+                paddingRight="5"
+                textAlign="left"
+                wordWrap="true"/>
+            <column
+                columnWidthMode="fixed"
+                dataField="Pull Time (min)"
+                headerText="Pull Time (min)"
+                paddingRight="5"
+                textAlign="left"
+                wordWrap="true"/>
+            <column
+                columnWidthMode="fixed"
+                dataField="Pull KB"
+                headerText="Pull KB"
+                paddingRight="5"
+                textAlign="left"
+                wordWrap="true"/>
+            <column
+                columnWidthMode="fixed"
+                dataField="Pull Status"
+                headerText="Pull Status"
+                paddingRight="5"
+                textAlign="left"
+                wordWrap="true"/>
+            <column
+                columnWidthMode="fixed"
+                dataField="Push No"
+                headerText="Push No"
+                paddingRight="5"
+                textAlign="left"
+                wordWrap="true"/>
+            <column
+                columnWidthMode="fixed"
+                dataField="Push Version"
+                headerText="Push Version"
+                paddingRight="5"
+                textAlign="left"
+                wordWrap="true"/>
+            <column
+                columnWidthMode="fixed"
+                dataField="Push Start"
+                headerText="Push Start"
+                paddingRight="5"
+                textAlign="left"
+                wordWrap="true"/>
+            <column
+                columnWidthMode="fixed"
+                dataField="Push Time (min)"
+                headerText="Push Time (min)"
+                paddingRight="5"
+                textAlign="left"
+                wordWrap="true"/>
+            <column
+                columnWidthMode="fixed"
+                dataField="Push KB"
+                headerText="Push KB"
+                paddingRight="5"
+                textAlign="left"
+                wordWrap="true"/>
+            <column
+                columnWidthMode="fixed"
+                dataField="Push Status"
+                headerText="Push Status"
+                paddingRight="5"
+                textAlign="left"
+                wordWrap="true"/>
+        </columns>
+    </level>
+</grid>
