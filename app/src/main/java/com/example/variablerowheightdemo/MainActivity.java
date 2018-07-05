@@ -20,11 +20,11 @@ public class MainActivity extends AppCompatActivity {
         grid.setFocusable(true);
         grid.buildFromXml(ResUtils.getStringFromResource(this, R.raw.test_grid));
         grid.setVerticalScrollPolicy("on");
-        enableGridLines(grid);
+        applyStyles(grid);
         grid.setDataProviderJson(ResUtils.getStringFromResource(this, R.raw.test_data));
     }
 
-    private void enableGridLines(FlexDataGrid grid) {
+    private void applyStyles(FlexDataGrid grid) {
         grid.horizontalGridLines = true;
         grid.horizontalGridLineThickness = 8;
         grid.horizontalGridLineColor=0xff000000;
@@ -39,5 +39,6 @@ public class MainActivity extends AppCompatActivity {
         grid.footerVerticalGridLineThickness = 4;
         grid.footerHorizontalGridLineColor = 0xff000000;
         grid.footerHorizontalGridLineThickness = 8;
+        grid.alternatingItemColors = new Integer[]{0x00000000, 0x00000000};
     }
 }
